@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 export class Navbar extends Component {
   render() {
     return (
@@ -11,9 +12,6 @@ export class Navbar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
                     <li className="nav-item">
                     <a className="nav-link" href="/business">Business</a>
                     </li>
@@ -35,7 +33,6 @@ export class Navbar extends Component {
                     <li className="nav-item">
                     <a className="nav-link" href="/technology">Technology</a>
                     </li>
-
                 </ul>
                 </div>
             </div>
